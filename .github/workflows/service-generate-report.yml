@@ -12,7 +12,7 @@ on:
           - Production
 jobs: 
   generate-report:
-    uses: xapo/pet-jenkins-to-gh-module/.github/workflows/generate-report.yml@v1.0.1
+    uses: xapo/pet-jenkins-to-gh-module/.github/workflows/generate-report.yml@v1.0.2
     with:
       ENVIRONMENT: ${{ github.event.inputs.environment }}
     secrets: inherit
